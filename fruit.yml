@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks: 
+  - name : ping all
+    ping :
+  - name :
+    apt :
+      name : apache2
+      state : present
+      
